@@ -2,6 +2,7 @@
 #include <rclcpp_action/rclcpp_action.hpp>
 #include "rclcpp/wait_for_message.hpp"
 #include <sensor_msgs/msg/joint_state.hpp>
+#include <control_msgs/FollowJointTrajectoryAction.h>
 #include <chrono>
 //#include <control_msgs/FollowJointTrajectoryAction.h>
 
